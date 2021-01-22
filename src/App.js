@@ -3,6 +3,7 @@ import axios from 'axios';
 import "./App.css";
 import Header from './Components/Header'
 import { BASE_URL, KEY } from "./Constants/Constants";
+import styled from "styled-components"
 
 function App() {
 
