@@ -5,7 +5,7 @@ import styled from 'styled-components'
 export default function Header(props) {
     const { data } = props;
     //console.log(props, 'props')
-    console.log(data,'data');
+    //console.log(data.title,'data');
     return (
         <Container>
             <h1>{data.title}</h1>
@@ -16,7 +16,7 @@ export default function Header(props) {
 }
 
 const Container = styled.div`
-    background-color: blue;
+    background-color: red;
     display:flex;
     justify-content:space-around;
     flex-direction:column;
